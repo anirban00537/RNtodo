@@ -10,7 +10,6 @@ import {
   View,
 } from "react-native";
 import TaskItem from "./Components/TaskItem";
-
 export default function App() {
   const [text, setText] = useState(null);
   const [list, setList] = useState([]);
